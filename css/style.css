@@ -1,0 +1,358 @@
+body{
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-weight: normal;
+}
+
+a:visited{
+    color: #609;
+}
+
+.fl{
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fl:hover{
+    text-decoration: underline;
+}
+
+._xdb{
+    color: #1a0dab;
+}
+
+.resSherch{
+    padding: 8px 0px 0px 80px;
+    font-size: small;
+    font-family: Arial, sans-serif;
+    color: #808080;
+}
+
+.content{
+    width: 1280px;
+    margin: 5px 0px 0px 63px;
+    padding: 0px 0px 0px 0px;
+}
+.leftContent{
+    width: 632px;
+    height: 905px;
+    float: left;
+
+}
+
+.rightContent{
+    width: 455px;
+    height: 850px;
+    float: left;
+    margin: 15px 0px 0px 40px;
+    border: 1px solid #ebebeb;
+}
+
+.blockSearch{
+    width: 632px;
+    height: 350px;
+    float: left;
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.blockNews{
+    width: 632px;
+    height: 305px;
+}
+
+.mainNews{
+    margin: 2px 0px 0px 17px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.news_1{
+    width: 206px;
+    height: 270px;
+    float: left;
+    margin: 13px 7px 0px 0px;
+    background-color: white;
+}
+
+.urlBGR{
+/*    background-image: url("../img/news.png");
+    width: 48px;
+    height: 48px;
+    background-size: 48px 48px;*/
+    cursor: pointer;
+}
+
+.news_2{
+    width: 206px;
+    height: 270px;
+    float: left;
+    margin: 13px 7px 0px 0px;
+    background-color: white;
+}
+.news_3{
+    width: 206px;
+    height: 270px;
+    float: left;
+    margin: 13px 0px 0px 0px;
+    background-color: white;
+}
+
+.srh{
+    margin: 0px 0px 40px 0px;
+    padding: 8px 0px 0px 0px;
+    line-height: 18px;
+}
+
+.srh a{
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.other_img{
+    line-height: 23px;
+    padding-left: 5px;
+}
+
+.blockSearchResult{
+    width: 632px;
+    height: auto;
+    float: left;
+    margin: 30px 0px 0px 0px;
+    background-color: yellow;
+}
+
+a:link{
+    cursor: pointer;
+}
+
+.g{
+    margin-top: 0px;
+    margin-bottom: 53px;
+    padding-left: 18px;
+}
+
+.title_img h3{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.g_img{
+    margin: 0px 0px 0px 0px;
+    padding-left: 18px;
+}
+
+.img{
+    width: 600px;
+    margin-right: 0px;
+    margin-top: 3px;
+}
+
+.img_1{
+    float: left;
+}
+.img_2{
+    float: left;
+}
+.img_3{
+    float: left;
+}
+.img_4{
+    float: left;
+}
+.img_5{
+
+}
+.img_1 img{
+    display: inline-block;
+    height: 90px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+
+.img_2 img{
+    display: inline-block;
+    height: 90px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+.img_3 img{
+    display: inline-block;
+    height: 90px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+.img_4 img{
+    display: inline-block;
+    height: 90px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+.img_5 img{
+    display: inline-block;
+    height: 90px;
+    margin-right: -20px;
+    margin-bottom: 4px;
+
+}
+
+.date_g h3{
+    font-size: 18px;
+    margin: 0 0;
+}
+
+.s_srh{
+    float: left;
+}
+
+.s_srh svg{
+    width: 25px;
+    height: 25px;
+}
+
+.blockShortInformation{
+    width: 455px;
+    height: 830px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #ffffff;
+}
+
+.cyti{
+    width: 455px;
+    height: 215px;
+    position: absolute;
+    float: left;
+}
+
+.fotoCyti{
+    float: left;
+    margin-top: 5px;
+}
+
+.fotoCyti a{
+    position: absolute;
+    width: 227px;
+    height: 115px;
+}
+.fotoCyti img{
+    width: 227px;
+    height: 115px;
+}
+
+.inf{
+    width: 455px;
+    height: 500px;
+    margin: 215px 0px 0px 0px;
+    float: left;
+    border-top: 1px solid #ebebeb;
+}
+
+.mapCyti{
+    float: left;
+}
+
+.mapCyti iframe{
+    width: 227px;
+    height: 125px;
+}
+
+.parish{
+    position: relative;
+    margin-bottom: 0px;
+    padding-top:  12px;
+    padding-bottom: 12px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.p_1{
+    color: rgba(0,0,0,.87);
+    font-family: arial,sans-serif-light,sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.p_2{
+    color: #777;
+    font-family: arial,sans-serif;
+    margin: 4px 0;
+}
+
+.si{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 13px 0 13px;
+    line-height: 1.24;
+}
+
+.m{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    line-height: 1.24;
+}
+
+._Jvo{
+    padding: 16px 16px 0px 16px;
+    font-size: 16px;
+    line-height: 22px;
+}
+._NRj, ._ORj, ._xRj{
+    margin: 0 0;
+    padding: 16px 16px 0px 16px;
+    font-size: 13px;
+}
+
+._NRj cite{
+    color: green;
+}
+._ORj cite{
+    color: green;
+}
+._xRj cite{
+    color: green;
+}
+._NRj span{
+    color: #808080;
+}
+._ORj span{
+    color: #808080;
+}
+._xRj span{
+    color: #808080;
+}
+
+._c{
+    font-size: 14px;
+    font-style: normal;
+    color: green;
+}
+.sp{
+    line-height: 1.4;
+}
+._Nft svg{
+    width: 18px;
+    height: 18px;
+    margin: -4px 0;
+}
