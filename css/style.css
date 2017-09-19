@@ -82,8 +82,9 @@ a:visited{
     width: 206px;
     height: 270px;
     float: left;
-    margin: 13px 7px 0px 0px;
+    margin: 13px 4px 0px 0px;
     background-color: white;
+    border: 1px solid #ebebeb;
 }
 
 .urlBGR{
@@ -98,8 +99,9 @@ a:visited{
     width: 206px;
     height: 270px;
     float: left;
-    margin: 13px 7px 0px 0px;
+    margin: 13px 4px 0px 0px;
     background-color: white;
+    border: 1px solid #ebebeb;
 }
 .news_3{
     width: 206px;
@@ -107,6 +109,7 @@ a:visited{
     float: left;
     margin: 13px 0px 0px 0px;
     background-color: white;
+    border: 1px solid #ebebeb;
 }
 
 .srh{
@@ -261,10 +264,12 @@ a:link{
 
 .inf{
     width: 455px;
-    height: 500px;
+    height: 250px;
     margin: 215px 0px 0px 0px;
     float: left;
     border-top: 1px solid #ebebeb;
+    font-size: 13px;
+    line-height: 1.24;
 }
 
 .mapCyti{
@@ -311,6 +316,7 @@ a:link{
     padding-right: 15px;
     padding-bottom: 5px;
     line-height: 1.24;
+    font-size: 13px;
 }
 
 ._Jvo{
@@ -355,4 +361,30 @@ a:link{
     width: 18px;
     height: 18px;
     margin: -4px 0;
+}
+._xdb a{
+    color: black;
+}
+
+._gee a{
+    color: black;
+}
+
+.con span{
+    font-size: 13px;
+}
+._eFb{
+    font-size: 13px;
+}
+
+.lions{
+    height: 300px;
+    width: 455px;
+    margin-top: 465px;
+}
+._lion{
+    padding-top: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
 }
